@@ -133,3 +133,25 @@ html {
 #section1 {
     background-color: black;
 }
+
+
+/* section2 */
+
+#section2 {
+    background-color: black;
+}
+
+@media only screen and (max-width: 750px) {
+    .flex:not(#header) {
+        display: block;
+    }
+    .column {
+        width: 50%;
+    }
+    .dic {
+        width: 50%;
+    }
+    img {
+        width: 50%;
+    }
+}
