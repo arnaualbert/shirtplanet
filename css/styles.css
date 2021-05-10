@@ -20,15 +20,29 @@ body {
     background-color: #B15AA1;
     color: black;
     text-align: right;
-    height: 25%;
+}
+
+.header2 {
+    width: 50%;
+    float: left;
+    background-color: #B15AA1;
+}
+
+.header2 img {
+    width: 35%;
+    height: auto;
 }
 
 .headerr {
     width: 50%;
     float: right;
-    background-color: black;
+    background-color: #000000;
     color: #B15AA1;
-    height: 25%;
+}
+
+.headerr img {
+    width: 35%;
+    height: auto;
 }
 
 img {
