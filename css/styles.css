@@ -68,6 +68,18 @@ img {
     border: solid 1px white;
 }
 
+
+/* pagina suplente */
+
+.column2 img {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+
+/* ********************** */
+
 .column3 {
     width: 33.33%;
     float: left;
