@@ -34,8 +34,25 @@ img {
     height: auto;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* columnas */
+
+.column {
+    flex: 50%;
+    /*     padding: 0 4px; */
+    padding: 5%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
 
 .column1 {
     width: 100%;
@@ -63,4 +80,56 @@ img {
     float: left;
     padding: 100px;
     border: solid 1px white;
+}
+
+.dic {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+    flex: 50%;
+    text-align: center;
+}
+
+
+/* menu */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: violet;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+    /* Used in this example to enable scrolling */
+}
+
+
+/* section1 */
+
+#section1 {
+    background-color: black;
 }
