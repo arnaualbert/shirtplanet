@@ -20,6 +20,7 @@ body {
     background-color: #B15AA1;
     color: black;
     text-align: right;
+    height: 25%;
 }
 
 .headerr {
@@ -27,6 +28,7 @@ body {
     float: right;
     background-color: black;
     color: #B15AA1;
+    height: 25%;
 }
 
 img {
