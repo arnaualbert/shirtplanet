@@ -65,7 +65,7 @@ img {
     padding: 5%;
 }
 
-.column3 img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
 }
@@ -80,14 +80,14 @@ img {
 .column2 {
     width: 50%;
     float: left;
+    padding: 100px;
 }
 
 
 /* pagina suplente */
 
 .column2 img {
-    width: 50%;
-    height: 50%;
+    width: 65%;
     float: right;
 }
 
