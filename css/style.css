@@ -91,6 +91,9 @@ img {
     float: left;
 }
 
+
+/* links */
+
 a:link,
 a:visited,
 a:active {
@@ -156,6 +159,27 @@ html {
     background-color: #B15AA1;
     color: blanchedalmond;
 }
+
+
+/* try */
+
+
+/* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
+
+.nombre {
+    width: 16.6%;
+    float: left;
+    text-align: center;
+    color: azure;
+    padding: 5px 5px 10px 5px;
+}
+
+.nombre img {
+    width: 100%;
+}
+
+
+/* no tocar (mediaquery) */
 
 @media only screen and (max-width: 750px) {
     .column img {
