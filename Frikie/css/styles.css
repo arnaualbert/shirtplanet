@@ -65,7 +65,7 @@ img {
     padding: 5%;
 }
 
-.column3 img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
 }
@@ -80,14 +80,14 @@ img {
 .column2 {
     width: 50%;
     float: left;
+    padding: 100px;
 }
 
 
 /* pagina suplente */
 
 .column2 img {
-    width: 50%;
-    height: 50%;
+    width: 65%;
     float: right;
 }
 
@@ -158,6 +158,7 @@ html {
 
 #section1 {
     background-color: black;
+    color: blanchedalmond;
 }
 
 
@@ -167,29 +168,8 @@ html {
     background-color: black;
 }
 
-
-/* lo que voy a cambiar */
-
-.txt {
-    background-color: orange;
-    color: white;
-    width: 33%;
-    text-align: center;
-    font-size: 1.25vw;
-    font-weight: bold;
-}
-
 @media only screen and (max-width: 750px) {
-    .flex:not(#header) {
-        display: block;
-    }
-    .column {
-        width: 50%;
-    }
-    .dic {
-        width: 50%;
-    }
-    img {
-        width: 50%;
+    .column img {
+        width: 49%;
     }
 }
