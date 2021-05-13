@@ -47,6 +47,7 @@ body {
 
 img {
     width: 33%;
+    /* 33 */
     height: auto;
 }
 
@@ -169,7 +170,34 @@ html {
 }
 
 @media only screen and (max-width: 750px) {
+    .headerl {
+        font-size: 2.8vw;
+    }
+    .headerr {
+        font-size: 2.8vw;
+    }
+    .header2 img {
+        width: 35%;
+    }
+    .headerr img {
+        width: 53%;
+    }
     .column img {
         width: 49%;
+    }
+    .column2 {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .column2 h1 {
+        font-size: 4vw;
+    }
+    .column2 p {
+        font-size: 4vw;
+        display: block;
+    }
+    .column2 img {
+        width: 100%;
     }
 }
