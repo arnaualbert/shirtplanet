@@ -172,4 +172,19 @@ html {
     .column img {
         width: 49%;
     }
+    .column2 {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .column2 h1 {
+        font-size: 4vw;
+    }
+    .column2 p {
+        font-size: 4pw;
+        display: block;
+    }
+    .column2 img {
+        width: 100%;
+    }
 }
