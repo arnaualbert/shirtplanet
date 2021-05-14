@@ -216,4 +216,14 @@ html {
     iframe {
         width: 100%;
     }
+    .nombre {
+        width: 49%;
+        float: left;
+        text-align: center;
+        color: azure;
+        /*         padding: 5px 5px 10px 5px; */
+    }
+    .nombre img {
+        width: 100%;
+    }
 }
