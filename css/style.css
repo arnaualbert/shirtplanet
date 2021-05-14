@@ -94,6 +94,14 @@ img {
 }
 
 
+/* cosas que añado para el footer (iker) */
+
+.column-2 {
+    width: 50%;
+    padding: 2% 7% 2% 7%;
+}
+
+
 /* links */
 
 a:link,
@@ -154,7 +162,7 @@ html {
 }
 
 
-/* footer */
+/* section3 */
 
 #footer {
     background-color: #B15AA1;
