@@ -14,6 +14,15 @@ body {
     clear: both;
 }
 
+.relleno-lateral {
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.relleno-columnas {
+    padding-right: 20px;
+}
+
 
 /* encabezado */
 
@@ -93,13 +102,20 @@ img {
     float: left;
 }
 
+.column1 {
+    width: 100%;
+    font-size: 1vw;
+    padding: 4% 2% 0% 4%;
+}
+
+.column2 {
+    width: 50%;
+    padding: 4% 7%;
+    float: left;
+}
+
 
 /* cosas que añado para el footer (iker) */
-
-.column-2 {
-    width: 50%;
-    padding: 2% 7% 2% 7%;
-}
 
 
 /* links */
@@ -167,6 +183,7 @@ html {
 #footer {
     background-color: #B15AA1;
     color: blanchedalmond;
+    height: 25%;
 }
 
 
@@ -185,6 +202,14 @@ html {
 
 .nombre img {
     width: 100%;
+}
+
+
+/* iframe */
+
+iframe {
+    width: 100%;
+    height: 19vw;
 }
 
 
@@ -224,6 +249,7 @@ html {
     }
     iframe {
         width: 100%;
+        height: 50vw;
     }
     .nombre {
         width: 49%;
