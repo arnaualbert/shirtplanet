@@ -47,6 +47,7 @@ body {
 
 img {
     width: 33%;
+    /* 33 */
     height: auto;
 }
 
@@ -168,7 +169,37 @@ html {
     background-color: black;
 }
 
+
+/* try */
+
+
+/* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
+
+.nombre {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: azure;
+    padding: 5px 5px 10px 5px;
+}
+
+.nombre img {
+    width: 100%;
+}
+
 @media only screen and (max-width: 750px) {
+    .headerl {
+        font-size: 2.8vw;
+    }
+    .headerr {
+        font-size: 2.8vw;
+    }
+    .header2 img {
+        width: 35%;
+    }
+    .headerr img {
+        width: 53%;
+    }
     .column img {
         width: 49%;
     }
@@ -181,10 +212,20 @@ html {
         font-size: 4vw;
     }
     .column2 p {
-        font-size: 4pw;
+        font-size: 4vw;
         display: block;
     }
     .column2 img {
+        width: 100%;
+    }
+    .nombre {
+        width: 42%;
+        float: left;
+        text-align: center;
+        color: azure;
+        /*         padding: 5px 5px 10px 5px; */
+    }
+    .nombre img {
         width: 100%;
     }
 }
