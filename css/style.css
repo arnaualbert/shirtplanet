@@ -188,6 +188,14 @@ html {
 }
 
 
+/* iframe */
+
+iframe {
+    width: 100%;
+    height: 19vw;
+}
+
+
 /* no tocar (mediaquery) */
 
 @media only screen and (max-width: 750px) {
