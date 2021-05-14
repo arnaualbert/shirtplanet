@@ -232,6 +232,7 @@ iframe {
     }
     iframe {
         width: 100%;
+        height: 50vw;
     }
     .nombre {
         width: 49%;
