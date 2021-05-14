@@ -14,6 +14,9 @@ body {
     clear: both;
 }
 
+
+/* encabezado */
+
 .headerl {
     width: 50%;
     float: left;
@@ -28,11 +31,6 @@ body {
     background-color: #B15AA1;
 }
 
-.header2 img {
-    width: 35%;
-    height: auto;
-}
-
 .headerr {
     width: 50%;
     float: right;
@@ -40,9 +38,29 @@ body {
     color: #B15AA1;
 }
 
+
+/* imagenes */
+
 .headerr img {
     width: 35%;
     height: auto;
+}
+
+.header2 img {
+    width: 35%;
+    height: auto;
+}
+
+.column2 img {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+.column img {
+    width: 16%;
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
 img {
@@ -61,28 +79,12 @@ img {
 
 .column {
     flex: 50%;
-    /*     padding: 0 4px; */
     padding: 5%;
-}
-
-.column img {
-    width: 16%;
-    margin-top: 8px;
-    vertical-align: middle;
 }
 
 .column h1 {
     color: azure;
     width: 19% !important;
-}
-
-
-/* pagina suplente */
-
-.column2 img {
-    width: 50%;
-    height: 50%;
-    float: right;
 }
 
 .column4 {
@@ -135,7 +137,6 @@ html {
     padding: 16px;
     margin-top: 30px;
     height: 1500px;
-    /* Used in this example to enable scrolling */
 }
 
 
