@@ -167,6 +167,59 @@ html {
 
 #section2 {
     background-color: black;
+    color: blanchedalmond;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #B15AA1;
+    color: blanchedalmond;
+    height: 25%;
+}
+
+.column2f {
+    width: 50%;
+    padding: 4% 7%;
+    float: left;
+}
+
+.column1f {
+    width: 100%;
+    font-size: 1vw;
+    padding: 4% 2% 0% 4%;
+}
+
+
+/* links */
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* acaba footer */
+
+
+/* try */
+
+
+/* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
+
+.nombre {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    color: azure;
+    padding: 5px 5px 5px 5px;
+}
+
+.nombre img {
+    width: 100%;
 }
 
 @media only screen and (max-width: 750px) {
@@ -198,6 +251,16 @@ html {
         display: block;
     }
     .column2 img {
+        width: 100%;
+    }
+    .nombre {
+        width: 42%;
+        float: left;
+        text-align: center;
+        color: azure;
+        /*         padding: 5px 5px 10px 5px; */
+    }
+    .nombre img {
         width: 100%;
     }
 }
