@@ -14,18 +14,6 @@ body {
     clear: both;
 }
 
-.relleno-lateral {
-    padding-left: 9%;
-    padding-right: 9%;
-}
-
-.relleno-columnas {
-    padding-right: 20px;
-}
-
-
-/* encabezado */
-
 .headerl {
     width: 50%;
     float: left;
@@ -40,6 +28,11 @@ body {
     background-color: #B15AA1;
 }
 
+.header2 img {
+    width: 35%;
+    height: auto;
+}
+
 .headerr {
     width: 50%;
     float: right;
@@ -47,33 +40,14 @@ body {
     color: #B15AA1;
 }
 
-
-/* imagenes */
-
 .headerr img {
     width: 35%;
     height: auto;
 }
 
-.header2 img {
-    width: 35%;
-    height: auto;
-}
-
-.column2 img {
-    width: 50%;
-    height: 50%;
-    float: right;
-}
-
-.column img {
-    width: 16%;
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
 img {
     width: 33%;
+    /* 33 */
     height: auto;
 }
 
@@ -88,43 +62,59 @@ img {
 
 .column {
     flex: 50%;
+    /*     padding: 0 4px; */
     padding: 5%;
 }
 
-.column h1 {
-    color: azure;
-    width: 19% !important;
-}
-
-.column4 {
-    width: 25%;
-    padding: 4% 7%;
-    float: left;
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
 .column1 {
     width: 100%;
-    font-size: 1vw;
-    padding: 4% 2% 0% 4%;
+    float: left;
+    padding: 100px;
+    border: solid 1px white;
 }
 
 .column2 {
     width: 50%;
-    padding: 4% 7%;
     float: left;
+    padding: 100px;
 }
 
 
-/* cosas que añado para el footer (iker) */
+/* pagina suplente */
+
+.column2 img {
+    width: 65%;
+    float: right;
+}
 
 
-/* links */
+/* ********************** */
 
-a:link,
-a:visited,
-a:active {
-    text-decoration: none;
-    color: white;
+.column3 {
+    width: 33.33%;
+    float: left;
+    padding: 100px;
+    border: solid 1px white;
+}
+
+.column4 {
+    width: 25%;
+    float: left;
+    padding: 100px;
+    border: solid 1px white;
+}
+
+.dic {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+    flex: 50%;
+    text-align: center;
 }
 
 
@@ -161,6 +151,7 @@ html {
     padding: 16px;
     margin-top: 30px;
     height: 1500px;
+    /* Used in this example to enable scrolling */
 }
 
 
@@ -168,6 +159,7 @@ html {
 
 #section1 {
     background-color: black;
+    color: blanchedalmond;
 }
 
 
@@ -175,15 +167,7 @@ html {
 
 #section2 {
     background-color: black;
-}
-
-
-/* section3 */
-
-#footer {
-    background-color: #B15AA1;
     color: blanchedalmond;
-    height: 25%;
 }
 
 
@@ -193,32 +177,18 @@ html {
 /* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
 
 .nombre {
-    width: 16.6%;
+    width: 33.3%;
     float: left;
     text-align: center;
     color: azure;
-    padding: 5px 5px 10px 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 .nombre img {
     width: 100%;
 }
 
-
-/* iframe */
-
-iframe {
-    width: 100%;
-    height: 19vw;
-}
-
-
-/* no tocar (mediaquery) */
-
 @media only screen and (max-width: 750px) {
-    .column img {
-        width: 49%;
-    }
     .headerl {
         font-size: 2.8vw;
     }
@@ -236,6 +206,8 @@ iframe {
     }
     .column2 {
         width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
     }
     .column2 h1 {
         font-size: 4vw;
@@ -247,12 +219,8 @@ iframe {
     .column2 img {
         width: 100%;
     }
-    iframe {
-        width: 100%;
-        height: 50vw;
-    }
     .nombre {
-        width: 49%;
+        width: 42%;
         float: left;
         text-align: center;
         color: azure;
