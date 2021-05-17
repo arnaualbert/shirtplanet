@@ -171,7 +171,13 @@ html {
 }
 
 
-/* try */
+/* footer */
+
+#footer {
+    background-color: #B15AA1;
+    color: blanchedalmond;
+    height: 25%;
+}
 
 
 /* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
