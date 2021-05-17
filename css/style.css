@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* https://fonts.google.com */
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -48,6 +47,29 @@ body {
 }
 
 
+/* section1 */
+
+#section1 {
+    background-color: black;
+}
+
+
+/* section2 */
+
+#section2 {
+    background-color: black;
+}
+
+
+/* footer */
+
+#footer {
+    background-color: #B15AA1;
+    color: blanchedalmond;
+    height: 25%;
+}
+
+
 /* imagenes */
 
 .headerr img {
@@ -75,6 +97,10 @@ body {
 img {
     width: 33%;
     height: auto;
+}
+
+.nombre img {
+    width: 100%;
 }
 
 .flex {
@@ -113,9 +139,6 @@ img {
     padding: 4% 7%;
     float: left;
 }
-
-
-/* cosas que añado para el footer (iker) */
 
 
 /* links */
@@ -164,33 +187,7 @@ html {
 }
 
 
-/* section1 */
-
-#section1 {
-    background-color: black;
-}
-
-
-/* section2 */
-
-#section2 {
-    background-color: black;
-}
-
-
-/* section3 */
-
-#footer {
-    background-color: #B15AA1;
-    color: blanchedalmond;
-    height: 25%;
-}
-
-
-/* try */
-
-
-/* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
+/* reglas de texto */
 
 .nombre {
     width: 16.6%;
@@ -200,10 +197,6 @@ html {
     padding: 5px 5px 10px 5px;
 }
 
-.nombre img {
-    width: 100%;
-}
-
 
 /* iframe */
 
@@ -211,9 +204,6 @@ iframe {
     width: 100%;
     height: 19vw;
 }
-
-
-/* no tocar (mediaquery) */
 
 @media only screen and (max-width: 750px) {
     .column img {

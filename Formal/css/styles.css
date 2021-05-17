@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* https://fonts.google.com */
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -13,6 +12,9 @@ body {
     display: table;
     clear: both;
 }
+
+
+/* encabezado */
 
 .headerl {
     width: 50%;
@@ -28,33 +30,11 @@ body {
     background-color: #B15AA1;
 }
 
-.header2 img {
-    width: 35%;
-    height: auto;
-}
-
 .headerr {
     width: 50%;
     float: right;
     background-color: #000000;
     color: #B15AA1;
-}
-
-.headerr img {
-    width: 35%;
-    height: auto;
-}
-
-img {
-    width: 33%;
-    /* 33 */
-    height: auto;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -64,11 +44,6 @@ img {
     flex: 50%;
     /*     padding: 0 4px; */
     padding: 5%;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
 }
 
 .column1 {
@@ -84,16 +59,17 @@ img {
     padding: 100px;
 }
 
-
-/* pagina suplente */
-
-.column2 img {
-    width: 65%;
-    float: right;
+.column2f {
+    width: 50%;
+    padding: 4% 7%;
+    float: left;
 }
 
-
-/* ********************** */
+.column1f {
+    width: 100%;
+    font-size: 1vw;
+    padding: 4% 2% 0% 4%;
+}
 
 .column3 {
     width: 33.33%;
@@ -179,18 +155,6 @@ html {
     height: 25%;
 }
 
-.column2f {
-    width: 50%;
-    padding: 4% 7%;
-    float: left;
-}
-
-.column1f {
-    width: 100%;
-    font-size: 1vw;
-    padding: 4% 2% 0% 4%;
-}
-
 
 /* links */
 
@@ -202,13 +166,7 @@ a:active {
 }
 
 
-/* acaba footer */
-
-
-/* try */
-
-
-/* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
+/* reglas de texto */
 
 .nombre {
     width: 33.3%;
@@ -218,8 +176,43 @@ a:active {
     padding: 5px 5px 5px 5px;
 }
 
+
+/* imagenes */
+
+.header2 img {
+    width: 35%;
+    height: auto;
+}
+
 .nombre img {
     width: 100%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.column2 img {
+    width: 65%;
+    float: right;
+}
+
+.headerr img {
+    width: 35%;
+    height: auto;
+}
+
+img {
+    width: 33%;
+    /* 33 */
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 750px) {
