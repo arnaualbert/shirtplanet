@@ -171,13 +171,7 @@ html {
 }
 
 
-/* footer */
-
-#footer {
-    background-color: #B15AA1;
-    color: blanchedalmond;
-    height: 25%;
-}
+/* try */
 
 
 /* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
@@ -187,7 +181,7 @@ html {
     float: left;
     text-align: center;
     color: azure;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 10px 5px;
 }
 
 .nombre img {
