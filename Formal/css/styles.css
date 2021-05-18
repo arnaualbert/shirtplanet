@@ -260,6 +260,12 @@ img {
         color: azure;
         /*         padding: 5px 5px 10px 5px; */
     }
+    #footer h1 {
+        font-size: 4.5vw;
+    }
+    #footer p {
+        font-size: 3.25vw;
+    }
     .nombre img {
         width: 100%;
     }
