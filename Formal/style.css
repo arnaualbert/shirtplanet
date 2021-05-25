@@ -1,5 +1,63 @@
+.item {
+    width: 33%;
+    height: auto;
+}
+
+.item-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.item-image {
+    width: 33%;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 15px;
+}
+
+.item-details>.item-price {
+    margin: 0;
+}
+
+
+/* ? SHOPPING CART */
+
+.shopping-cart-items {
+    padding: 5%;
+}
+
+.shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+}
+
+.shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+}
+
+.shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+}
+
+.shopping-cart-total {
+    min-height: 96px;
+}
+
+
+/* ++++++++++++++++++ */
+
 * {
     box-sizing: border-box;
+    /* https://fonts.google.com */
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -12,9 +70,6 @@ body {
     display: table;
     clear: both;
 }
-
-
-/* encabezado */
 
 .headerl {
     width: 50%;
@@ -30,11 +85,33 @@ body {
     background-color: #B15AA1;
 }
 
+.header2 img {
+    width: 35%;
+    height: auto;
+}
+
 .headerr {
     width: 50%;
     float: right;
     background-color: #000000;
     color: #B15AA1;
+}
+
+.headerr img {
+    width: 35%;
+    height: auto;
+}
+
+img {
+    width: 33%;
+    /* 33 */
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -44,6 +121,11 @@ body {
     flex: 50%;
     /*     padding: 0 4px; */
     padding: 5%;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
 }
 
 .column1 {
@@ -59,17 +141,16 @@ body {
     padding: 100px;
 }
 
-.column2f {
-    width: 50%;
-    padding: 4% 7%;
-    float: left;
+
+/* pagina suplente */
+
+.column2 img {
+    width: 65%;
+    float: right;
 }
 
-.column1f {
-    width: 100%;
-    font-size: 1vw;
-    padding: 4% 2% 0% 4%;
-}
+
+/* ********************** */
 
 .column3 {
     width: 33.33%;
@@ -127,7 +208,6 @@ html {
     padding: 16px;
     margin-top: 30px;
     height: 1500px;
-    /* Used in this example to enable scrolling */
 }
 
 
@@ -147,12 +227,52 @@ html {
 }
 
 
+/* section3 */
+
+#section3 {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+
+/* img */
+
+.effect img.image {
+    /*type your css here which you want to use for both*/
+}
+
+.effect:hover img.image {
+    display: none;
+}
+
+.effect img.hover {
+    display: none;
+}
+
+.effect:hover img.hover {
+    display: block;
+}
+
+
 /* footer */
 
 #footer {
     background-color: #B15AA1;
     color: blanchedalmond;
     height: 25%;
+}
+
+.column2f {
+    width: 50%;
+    padding: 4% 7%;
+    float: left;
+}
+
+.column1f {
+    width: 100%;
+    font-size: 1vw;
+    padding: 4% 2% 0% 4%;
 }
 
 
@@ -166,7 +286,13 @@ a:active {
 }
 
 
-/* reglas de texto */
+/* acaba footer */
+
+
+/* try */
+
+
+/* no lo borreis ok es bastante importante pd:falta configurarlo bastante , ya lo hago yo(Arnau) */
 
 .nombre {
     width: 33.3%;
@@ -176,43 +302,8 @@ a:active {
     padding: 5px 5px 5px 5px;
 }
 
-
-/* imagenes */
-
-.header2 img {
-    width: 35%;
-    height: auto;
-}
-
 .nombre img {
     width: 100%;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-.column2 img {
-    width: 65%;
-    float: right;
-}
-
-.headerr img {
-    width: 35%;
-    height: auto;
-}
-
-img {
-    width: 33%;
-    /* 33 */
-    height: auto;
-}
-
-.flex {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media only screen and (max-width: 750px) {
