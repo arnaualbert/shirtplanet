@@ -3,13 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/code.js"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
     <link href="./fontawesome/css/all.css" rel="stylesheet">
-    <link rel="icon" href="img/logo/logo3.png">
-    <title>ShirtPlanet</title>
+    <title>Tienda</title>
 </head>
 
 <body>
@@ -17,16 +15,15 @@
         <div class="headerl">
             <h1 class="header2"><img src="img/logo/logo3.png"></h1>
             <h1 class="headerl">Shirt</h1>
-            <!--             <h1 class="headerl"></h1> -->
             <h3 class="headerl">Tu tienda de camis</h3>
         </div>
         <div class="headerr">
             <h1 class="headerr"><img src="img/logo/logo3.png"></h1>
             <h1 class="headerr">planet</h1>
-            <!--             <h1 class="headerr"></h1> -->
             <h3 class="headerr">etas de confianza</h3>
         </div>
     </div>
+    <!-- c -->
     <div class="navbar">
         <a href="#header"><i class="fas fa-arrow-up"></i></a>
         <a href="#section1"><i class="fas fa-male"></i></a>
@@ -34,64 +31,231 @@
         <a href="../index.html"><i class="fas fa-home"></i></a>
         <a href="../Frikie/index.html">Friki</a>
         <a href="../Informal/index.html">Informal</a>
-    </div>
-    <div id="section1" class="row">
-        <div class="column">
-            <div class="nombre">
-                <a href="./pc/m1.html"><img src="./img/formal/m1.jpg"></a>
-                <p>Carvaggio</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/m2.html"><img src="./img/formal/m2.jpg"></a>
-                <p>Camisa Off</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/m3.html"><img src="./img/formal/m3.jpg"></a>
-                <p>Dematerialization</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/m4.html"><img src="./img/formal/m4.jpg"></a>
-                <p>La Gioconda</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/m5.html"><img src="./img/formal/m5.jpg"></a>
-                <p>Camisa Militar</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/m6.html"><img src="./img/formal/m6.jpg"></a>
-                <p>Camia blanca</p>
-            </div>
-        </div>
-    </div>
-    <div id="section2" class="row">
-        <div class="column">
-            <div class="nombre">
-                <a href="./pc/f1.html"><img src="./img/formal/f1.jpg"></a>
-                <p>Camisa italiana</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/f2.html"><img src="./img/formal/f2.jpg"></a>
-                <p>Dalí</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/f3.html"><img src="./img/formal/f3.jpg"></a>
-                <p>Camisa azul</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/f4.html"><img src="./img/formal/f4.jpg"></a>
-                <p>Americana con falda</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/f5.html"><img src="./img/formal/f5.jpg"></a>
-                <p>Camisa Flores</p>
-            </div>
-            <div class="nombre">
-                <a href="./pc/f6.html"><img src="./img/formal/f6.jpg"></a>
-                <p>Tejana</p>
-            </div>
-        </div>
+        <a href="#section3"><i class="fas fa-shopping-cart"></i></a>
     </div>
 
+    <!-- START SECTION STORE -->
+    <!-- <div id="section1" class="row"></div> -->
+    <!--  -->
+    <section class="store">
+
+        <div class="items">
+
+            <div id="section1" class="row">
+                <div class="column">
+                    <div class="item shadow mb-4 nombre">
+                        <h3 class="item-title">Carvaggio</h3>
+                        <div class="effect">
+                            <a href="./pc/m1.html"><img class="item-image image" src="./img/formal/m1.jpg"></a>
+                            <a href="./pc/m1.html"><img class="image hover" src="./img/formal/caravaggio.jpg"></a>
+                        </div>
+                        <div class="item-details">
+                            <h4 class="item-price">50€</h4>
+                            <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <div class="item shadow mb-4 nombre">
+                        <h3 class="item-title">Camisa Off</h3>
+                        <div class="effect">
+                            <a href="./pc/m2.html"><img class="item-image image" src="./img/formal/m2.jpg"></a>
+                            <a href="./pc/m2.html"><img class="image hover" src="./img/formal/mano.jpg"></a>
+                        </div>
+                        <div class="item-details">
+                            <h4 class="item-price">45€</h4>
+                            <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="item shadow mb-4 nombre">
+                        <h3 class="item-title">Dematerialization</h3>
+
+                        <div class="effect">
+                            <a href="./pc/m3.html"><img class="item-image image" src="./img/formal/m3.jpg"></a>
+                            <a href="./pc/m3.html"><img class="image hover" src="./img/formal/demate.jpg"></a>
+                        </div>
+                        <div class="item-details">
+                            <h4 class="item-price">30€</h4>
+                            <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section1" class="row">
+                <div class="column">
+                    <div class="item shadow mb-4 nombre">
+                        <h3 class="item-title">Gioconda</h3>
+
+                        <div class="effect">
+                            <a href="./pc/m4.html"><img class="item-image image" src="./img/formal/m4.jpg"></a>
+                            <a href="./pc/m4.html"><img class="image hover" src="./img/formal/gioconda.jpg"></a>
+                        </div>
+                        <div class="item-details">
+                            <h4 class="item-price">65€</h4>
+                            <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="item shadow mb-4 nombre">
+                        <h3 class="item-title">Militar</h3>
+
+                        <div class="effect">
+                            <a href="./pc/m5.html"><img class="item-image image" src="./img/formal/m5.jpg"></a>
+                            <a href="./pc/m5.html"><img class="image hover" src="./img/formal/mili.jpg"></a>
+                        </div>
+
+                        <div class="item-details">
+                            <h4 class="item-price">45€</h4>
+                            <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                    <div class="item shadow mb-4 nombre">
+                        <h3 class="item-title">Blanca</h3>
+
+                        <div class="effect">
+                            <a href="./pc/m6.html"><img class="item-image image" src="./img/formal/m6.jpg"></a>
+                            <a href="./pc/m6.html"><img class="image hover" src="./img/formal/blanca.jpg"></a>
+                        </div>
+
+                        <div class="item-details">
+                            <h4 class="item-price">9.99€</h4>
+                            <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+        </div>
+        <!-- dif section -->
+        <div id="section2" class="row">
+            <div class="column">
+                <div class="item shadow mb-4 nombre">
+                    <h3 class="item-title">Camisa Blanca</h3>
+                    <div class="effect">
+                        <a href="./pc/f1.html"><img class="item-image image" src="./img/formal/f1.jpg"></a>
+                        <a href="./pc/f1.html"><img class="image hover" src="./img/formal/italiana.jpg"></a>
+                    </div>
+
+                    <div class="item-details">
+                        <h4 class="item-price">20€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="item shadow mb-4 nombre">
+                    <h3 class="item-title">Camiseta Dalí</h3>
+
+                    <div class="effect">
+                        <a href="./pc/f2.html"><img class="item-image image" src="./img/formal/f2.jpg"></a>
+                        <a href="./pc/f2.html"><img class="image hover" src="./img/formal/flores.jpg"></a>
+                    </div>
+
+                    <div class="item-details">
+                        <h4 class="item-price">20€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="item shadow mb-4 nombre">
+                    <h3 class="item-title">Camisa Italiana</h3>
+
+                    <div class="effect">
+                        <a href="./pc/f3.html"><img class="item-image image" src="./img/formal/f3.jpg"></a>
+                        <a href="./pc/f3.html"><img class="image hover" src="./img/formal/azul.jpg"></a>
+                    </div>
+
+                    <div class="item-details">
+                        <h4 class="item-price">35€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="section2" class="row">
+            <div class="column">
+                <div class="item shadow mb-4 nombre">
+                    <h3 class="item-title">Americana con falda</h3>
+
+                    <div class="effect">
+                        <a href="./pc/f4.html"><img class="item-image image" src="./img/formal/f4.jpg"></a>
+                        <a href="./pc/f4.html"><img class="image hover" src="./img/formal/americanafalda.jpg"></a>
+                    </div>
+
+                    <div class="item-details">
+                        <h4 class="item-price">60€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="item shadow mb-4 nombre">
+                    <h3 class="item-title">Camisa de flores</h3>
+
+                    <div class="effect">
+                        <a href="./pc/f5.html"><img class="item-image image" src="./img/formal/f5.jpg"></a>
+                        <a href="./pc/f5.html"><img class="image hover" src="./img/formal/floreaog.jpg"></a>
+                    </div>
+
+                    <div class="item-details">
+                        <h4 class="item-price">45€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+                <div class="item shadow mb-4 nombre">
+                    <h3 class="item-title">Americana tejana</h3>
+
+                    <div class="effect">
+                        <a href="./pc/f6.html"><img class="item-image image" src="./img/formal/f6.jpg"></a>
+                        <a href="./pc/f6.html"><img class="image hover" src="./img/formal/tejana.jpg"></a>
+                    </div>
+
+                    <div class="item-details">
+                        <h4 class="item-price">45€</h4>
+                        <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- ------------------------------------------------------------------------------------------------------------------ -->
+
+        </div>
+    </section>
+    </div>
+    <!-- END SECTION STORE -->
+    <!-- START SECTION SHOPPING CART -->
+    <div id="section3" class="row column">
+        <section class="shopping-cart">
+            <div class="container">
+                <h1>CARRITO</h1>
+                <hr>
+
+                <!-- ? START SHOPPING CART ITEMS -->
+                <div class="shopping-cart-items shoppingCartItemsContainer column">
+                </div>
+                <!-- ? END SHOPPING CART ITEMS -->
+
+                <!-- START TOTAL -->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="shopping-cart-total d-flex align-items-center">
+                            <p class="mb-0">Total</p>
+                            <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                            <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal" data-target="#comprarModal">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END TOTAL -->
+
+            <!-- START MODAL COMPRA -->
+
+
+    </div>
+
+    <!-- END MODAL COMPRA -->
+    <!-- END SECTION SHOPPING CART -->
+
+
+    <!-- START FOOTER -->
     <div id="footer" class="row ">
         <div class="column1f">
             <h1>Gracias por pasaros por nuestra página</h1>
@@ -114,6 +278,18 @@
         </a>
     </div>
     </div>
+    <!-- END FOOTER -->
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="./tienda.js"></script>
+
 </body>
 
 </html>
