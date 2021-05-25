@@ -260,7 +260,6 @@ html {
 #footer {
     background-color: #B15AA1;
     color: blanchedalmond;
-    height: 25%;
 }
 
 .column2f {
@@ -492,5 +491,11 @@ a:active {
     }
     .nombre img {
         width: 100%;
+    }
+    #footer h1 {
+        font-size: 4.5vw;
+    }
+    #footer p {
+        font-size: 3.25vw;
     }
 }
