@@ -74,6 +74,7 @@ body {
 
 .imagen {
     width: 13.25vw;
+    !important
 }
 
 .column2 img {
