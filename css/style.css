@@ -72,10 +72,6 @@ body {
 
 /* imagenes */
 
-.imagen {
-    width: 13.25vw;
-}
-
 .column2 img {
     width: 50%;
     height: 50%;
@@ -189,14 +185,6 @@ html {
     text-align: center;
     color: azure;
     padding: 5px 5px 10px 5px;
-}
-
-#header h2 {
-    font-size: 4vw;
-}
-
-#header h3 {
-    font-size: 2.5vw;
 }
 
 
