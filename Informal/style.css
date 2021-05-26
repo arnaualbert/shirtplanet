@@ -71,35 +71,28 @@ body {
     clear: both;
 }
 
-.headerl {
-    width: 50%;
-    float: left;
-    background-color: #B15AA1;
+#header {
     color: black;
-    text-align: right;
-}
-
-.header2 {
-    width: 50%;
-    float: left;
     background-color: #B15AA1;
+    font-weight: bold;
+    font-family: 'Pattaya', 'sans-serif';
+    text-align: center;
+    height: 35%;
 }
 
-.header2 img {
-    width: 35%;
-    height: auto;
+#header h1 {
+    font-size: 3vw;
 }
 
-.headerr {
-    width: 50%;
-    float: right;
-    background-color: #000000;
-    color: #B15AA1;
+#header h2 {
+    font-size: 2vw;
 }
 
-.headerr img {
-    width: 35%;
-    height: auto;
+#header img {
+    width: 10vw;
+    float: left;
+    position: absolute;
+    left: 1%;
 }
 
 img {

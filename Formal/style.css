@@ -71,7 +71,8 @@ body {
     clear: both;
 }
 
-.headerl {
+
+/* .headerl {
     width: 50%;
     float: left;
     background-color: #B15AA1;
@@ -90,7 +91,37 @@ body {
     float: right;
     background-color: #000000;
     color: #B15AA1;
+} */
+
+
+/* header iker */
+
+#header {
+    color: black;
+    background-color: #B15AA1;
+    font-weight: bold;
+    font-family: 'Pattaya', 'sans-serif';
+    text-align: center;
+    height: 35%;
 }
+
+#header h1 {
+    font-size: 3vw;
+}
+
+#header h2 {
+    font-size: 2vw;
+}
+
+#header img {
+    width: 10vw;
+    float: left;
+    position: absolute;
+    left: 1%;
+}
+
+
+/*  */
 
 img {
     width: 33%;
