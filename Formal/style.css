@@ -85,21 +85,11 @@ body {
     background-color: #B15AA1;
 }
 
-.header2 img {
-    width: 35%;
-    height: auto;
-}
-
 .headerr {
     width: 50%;
     float: right;
     background-color: #000000;
     color: #B15AA1;
-}
-
-.headerr img {
-    width: 35%;
-    height: auto;
 }
 
 img {
