@@ -371,7 +371,8 @@ a:active {
         font-size: 3vw;
     }
     #header img {
-        width: 14vw;
+        height: 8vh;
+        width: 15vw;
     }
     .column img {
         width: 49%;
@@ -425,5 +426,10 @@ a:active {
     }
     .items p {
         font-size: small;
+    }
+    #section1,
+    #section2,
+    img {
+        height: 20vh;
     }
 }
