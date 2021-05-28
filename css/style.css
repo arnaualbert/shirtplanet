@@ -35,7 +35,6 @@ img {
     font-weight: bold;
     font-family: 'Pattaya', 'sans-serif';
     text-align: center;
-    height: 35%;
 }
 
 #header h1 {
@@ -47,11 +46,20 @@ img {
 }
 
 #header img {
-    width: 10vw;
-    float: left;
-    position: absolute;
-    left: 1%;
+    width: 18vw;
+    height: 27vh !important;
+    float: left !important;
+    position: absolute !important;
+    left: 1% !important;
 }
+
+
+/* #header img {
+    width: 10vw !important;
+    float: left !important;
+    position: absolute !important;
+    left: 1% !important;
+} */
 
 
 /* section1 */
