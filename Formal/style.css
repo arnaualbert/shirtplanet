@@ -74,31 +74,7 @@ body {
     display: table;
     clear: both;
 }
-
-
-/* .headerl {
-    width: 50%;
-    float: left;
-    background-color: #B15AA1;
-    color: black;
-    text-align: right;
-}
-
-.header2 {
-    width: 50%;
-    float: left;
-    background-color: #B15AA1;
-}
-
-.headerr {
-    width: 50%;
-    float: right;
-    background-color: #000000;
-    color: #B15AA1;
-} */
-
-
-/* header iker */
+/* header */
 
 #header {
     color: black;
