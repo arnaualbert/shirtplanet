@@ -47,6 +47,7 @@ img {
 }
 
 #header img {
+    height: 29.5vh !important;
     width: 15vw;
     float: left;
     position: absolute;
@@ -96,6 +97,7 @@ img {
 }
 
 img {
+    height: 40vh !important;
     width: 33%;
     height: auto;
 }
