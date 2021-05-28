@@ -33,22 +33,21 @@ img {
     color: black;
     background-color: #B15AA1;
     font-weight: bold;
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Pattaya', 'sans-serif';
     text-align: center;
     height: 35%;
 }
 
 #header h1 {
-    font-size: 4vw;
+    font-size: 3vw;
 }
 
-#header h3 {
+#header h2 {
     font-size: 2vw;
 }
 
 #header img {
-    height: 29.5vh !important;
-    width: 15vw;
+    width: 10vw;
     float: left;
     position: absolute;
     left: 1%;
