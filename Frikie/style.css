@@ -371,8 +371,7 @@ a:active {
         font-size: 3vw;
     }
     #header img {
-        height: 8vh !important;
-        width: 15vw !important;
+        width: 14vw;
     }
     .column img {
         width: 49%;
@@ -403,12 +402,6 @@ a:active {
         color: azure;
         /*         padding: 5px 5px 10px 5px; */
     }
-    #section1 {
-        height: 60vh !important;
-    }
-    #section1 img {
-        height: 30vh;
-    }
     #footer h1 {
         font-size: 4.5vw;
     }
@@ -432,10 +425,5 @@ a:active {
     }
     .items p {
         font-size: small;
-    }
-    #section1,
-    #section2,
-    img {
-        height: 20vh;
     }
 }
